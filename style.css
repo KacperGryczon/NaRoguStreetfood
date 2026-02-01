@@ -651,6 +651,13 @@ footer a:hover {
     justify-content: start;
     padding: 32px;
   }
+  #hero,
+  #oNas,
+  #menu,
+  #kontakt,
+  #galeria {
+    padding-block: 32px;
+  }
   .hero-h1 {
     font-size: 4rem;
   }
