@@ -454,7 +454,6 @@ iframe {
 }
 
 .image-carousel {
-  gap: 1em;
   display: flex;
   width: 80%;
   overflow-x: auto;
@@ -509,13 +508,15 @@ iframe {
   flex: 0 0 100%;
   height: 30em;
   aspect-ratio: 5 / 3;
+  width: 50%;
 }
 
 .image-card img {
-  height: 30em;
   width: 100%;
-  border-radius: 16px;
+  height: 100%;
   object-fit: cover;
+  border-radius: 16px;
+  display: block;
 }
 
 footer {
@@ -610,6 +611,39 @@ footer a:hover {
     width: 60%;
     margin: 32px 0;
   }
+  .kontakt-tiles {
+    flex-wrap: wrap;
+  }
+  .kontakt-tiles .tile {
+    flex-basis: 40%;
+  }
+}
+
+@media only screen and (width <= 850px) {
+  .oNas-text-img {
+    display: flex;
+    flex-direction: column;
+  }
+  .oNas-text {
+    width: 100%;
+  }
+  .oNas-img {
+    width: 100%;
+    margin-top: 32px;
+  }
+  .oNas-tiles {
+    flex-wrap: wrap;
+  }
+  .kontakt-tiles .tile {
+    flex-basis: 100%;
+  }
+
+  .footer-main {
+    flex-direction: column;
+  }
+  .footer-main > * {
+    width: 80%;
+  }
 }
 @media only screen and (width <= 500px) {
   #hero {
@@ -623,6 +657,18 @@ footer a:hover {
   .hero-p {
     font-size: 1.2rem;
     width: 80%;
+  }
+  .nav-ul-i {
+    display: block;
+    justify-self: end;
+    padding-right: 12px;
+    margin-bottom: 32px;
+  }
+  .image-card {
+    height: 20em;
+  }
+  iframe {
+    height: 15em;
   }
 }
 @media only screen and (width <= 450px) {
@@ -642,6 +688,13 @@ footer a:hover {
   }
   .logo-img {
     display: none;
+  }
+  .nav-ul-i {
+    display: block;
+    justify-self: end;
+    padding-right: 12px;
+    margin-bottom: 32px;
+    margin-top: 32px;
   }
 }
 
