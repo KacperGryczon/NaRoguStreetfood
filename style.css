@@ -468,6 +468,9 @@ iframe {
 
 .image-carousel::scroll-button(right) {
   content: "→";
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: none;
   background-color: var(--akcent);
   font-size: 3rem;
@@ -483,6 +486,9 @@ iframe {
 }
 .image-carousel::scroll-button(left) {
   content: "←";
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: none;
   background-color: var(--akcent);
   font-size: 3rem;
@@ -499,7 +505,7 @@ iframe {
 
 .image-carousel::scroll-button(left):disabled,
 .image-carousel::scroll-button(right):disabled {
-  opacity: 0.7;
+  opacity: 0.8;
   cursor: auto;
 }
 
