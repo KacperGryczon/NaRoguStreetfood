@@ -128,9 +128,11 @@
 }
 
 .odwiedzNas-h3 {
+  align-self: center;
   text-align: center;
   padding-top: 16px;
   padding-bottom: 64px;
+  width: 70%;
 }
 
 .odwiedzNas-button {
