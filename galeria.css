@@ -8,7 +8,7 @@
 #galeria-hero {
   background:
     linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
-    url("https://images.unsplash.com/photo-1667892960003-f3e6b7817129?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkZWxpY2lvdXMlMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MXx8fHwxNzY5ODU3ODAyfDA&ixlib=rb-4.1.0&q=80&w=1080");
+    url("https://images.unsplash.com/photo-1767540885824-1be86c535234?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmb29kJTIwdHJ1Y2slMjBvdXRkb29yJTIwZGluaW5nfGVufDF8fHx8MTc2OTk0ODAxOXww&ixlib=rb-4.1.0&q=80&w=1080");
   background-size: cover;
   background-position: center;
   padding-inline: 5%;
