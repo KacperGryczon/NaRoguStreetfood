@@ -24,3 +24,24 @@ Array.from(images).forEach((element) => {
     });
   });
 });
+
+const buttons = document.querySelectorAll(".menu-filter button");
+const items = document.querySelectorAll(".menu-card");
+
+buttons.forEach((button) => {
+  button.addEventListener("click", () => {
+    const category = button.dataset.category;
+    buttons.forEach((btn) => {
+      btn.classList.remove("active");
+    });
+    button.classList.add("active");
+
+    items.forEach((item) => {
+      item.classList.remove("visible");
+
+      if (item.classList.contains(category)) {
+        item.classList.add("visible");
+      }
+    });
+  });
+});
