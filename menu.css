@@ -52,6 +52,9 @@ button.active {
   background-color: var(--akcent);
   color: black;
 }
+button.active:hover {
+  background-color: var(--żółty-jaśniejszy);
+}
 .menu {
   padding-inline: 5%;
   padding-block: 64px;
@@ -115,4 +118,46 @@ button.active {
   font-size: 2rem;
   padding: 16px;
   font-weight: bold;
+}
+
+#odwiedzNas {
+  padding-block: 64px;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+}
+
+.odwiedzNas-h2 {
+  font-size: 3rem;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+}
+
+.odwiedzNas-h3 {
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 64px;
+}
+
+.odwiedzNas-button {
+  padding: 15px;
+  border-radius: 32px;
+  border: none;
+  background-color: var(--akcent);
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 400;
+  width: 400px;
+  cursor: pointer;
+  transition: ease-in-out 0.2s;
+  align-self: center;
+  text-decoration: none;
+  text-align: center;
+}
+
+.odwiedzNas-button:hover {
+  background-color: var(--żółty-jaśniejszy);
 }
