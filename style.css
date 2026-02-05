@@ -588,12 +588,13 @@ footer ul {
 footer li {
   margin-block: 8px;
   display: flex;
-  align-items: center;
+  align-items: start;
 }
 
 footer i {
   margin-right: 10px;
   color: var(--akcent);
+  transform: translateY(3px);
 }
 
 footer a {
